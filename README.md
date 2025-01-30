@@ -1,15 +1,6 @@
-# webpack-template
-This is a template repo for using Webpack with ESlint and Prettier
+The Odin Project Weather App
 
-To deploy: 
-npm run build
-npm run deploymentBranch
-npm run addCommit
-npm run push
+Specifications: 
 
-To run webpack serve:
-npm run dev
-
-To run linting:
-npx eslint yourfile.js
-
+Using the Visual Crossing API create a weather applicaton with a searchable location.
+Change the look of the page based on the data, i.e. background color or add images that describe the weather.
