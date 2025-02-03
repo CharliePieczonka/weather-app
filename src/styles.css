@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: ui-rounded, 'Hiragino Maru Gothic ProN', Quicksand, Comfortaa, Manjari, 'Arial Rounded MT', 'Arial Rounded MT Bold', Calibri, source-sans-pro, sans-serif;
+    font-weight: normal;
+}
+
+body {
+    background-color: #ADD8E6;
+}
+
+.main {
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.search-div {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.current {
+    background-color: white;
+    padding: 20px;
+}
+
+.weather-div {
+    display: flex;
+    gap: 40px;
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+}
+
+.city {
+    font-size: 30px;
+}
+
+.time {
+    font-size: 20px;
+}
+
+.temp {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.description-div {
+    margin-top: 10px;
+}
+
+.forecast {
+    background-color: white;
+    padding: 15px 20px;
+}
+
+.forecast-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.dates {
+    display: flex;
+    gap: 20px;
+}
+
+.day-div {
+    border: 1px solid black;
+    padding: 10px;
+}
