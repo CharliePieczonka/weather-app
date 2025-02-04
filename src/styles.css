@@ -1,124 +1,126 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: ui-rounded, 'Hiragino Maru Gothic ProN', Quicksand, Comfortaa, Manjari, 'Arial Rounded MT', 'Arial Rounded MT Bold', Calibri, source-sans-pro, sans-serif;
-    font-weight: normal;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: ui-rounded, "Hiragino Maru Gothic ProN", Quicksand, Comfortaa,
+    Manjari, "Arial Rounded MT", "Arial Rounded MT Bold", Calibri,
+    source-sans-pro, sans-serif;
+  font-weight: normal;
 }
 
 body {
-    background-color: #ADD8E6;
+  background-color: #add8e6;
 }
 
 header {
-    position: absolute;
-    padding: 15px 25px;
+  position: absolute;
+  padding: 15px 25px;
 }
 
 .title {
-    font-size: 36px;
+  font-size: 36px;
 }
 
 .main {
-    padding: 30px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .content {
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
 }
 
 .search-div {
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-    margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 30px;
 }
 
 #search {
-    width: 50%;
-    height: 30px;
-    border: none;
-    border-radius: 15px;
-    padding-left: 15px;
-    box-shadow: 5px 5px 10px #80a4b0;
+  width: 50%;
+  height: 30px;
+  border: none;
+  border-radius: 15px;
+  padding-left: 15px;
+  box-shadow: 5px 5px 10px #80a4b0;
 }
 
 #search:focus {
-    outline-width: 0;
+  outline-width: 0;
 }
 
 .current {
-    background-color: white;
-    padding: 15px 30px 25px 30px;
-    border-radius: 20px;
-    align-self: center;
-    box-shadow: 5px 5px 10px #80a4b0;
+  background-color: white;
+  padding: 15px 30px 25px 30px;
+  border-radius: 20px;
+  align-self: center;
+  box-shadow: 5px 5px 10px #80a4b0;
 }
 
 .weather-div {
-    display: flex;
-    gap: 40px;
-    justify-content: space-between;
+  display: flex;
+  gap: 40px;
+  justify-content: space-between;
 }
 
 .header-right {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .city {
-    font-size: 30px;
+  font-size: 30px;
 }
 
 .time {
-    font-size: 20px;
+  font-size: 20px;
 }
 
 .temp {
-    font-size: 50px;
-    font-weight: bold;
+  font-size: 50px;
+  font-weight: bold;
 }
 
 .description-div {
-    margin-top: 10px;
-    width: 450px;
+  margin-top: 10px;
+  width: 450px;
 }
 
 .forecast {
-    background-color: white;
-    padding: 15px 30px 20px 30px;
-    border-radius: 20px;
-    box-shadow: 5px 5px 10px #80a4b0;
+  background-color: white;
+  padding: 15px 30px 20px 30px;
+  border-radius: 20px;
+  box-shadow: 5px 5px 10px #80a4b0;
 }
 
 .forecast-title {
-    font-size: 20px;
-    font-weight: bold;
-    margin-bottom: 15px;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 15px;
 }
 
 .dates {
-    display: flex;
-    justify-content: space-between;
-    gap: 30px
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
 }
 
 .day-div {
-    border: 1px solid black;
-    border-radius: 10px;
-    padding: 10px;
-    width: 70px;
-    height: 70px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 10px;
+  width: 70px;
+  height: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .day {
-    font-weight: bold;
+  font-weight: bold;
 }

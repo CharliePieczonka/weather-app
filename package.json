@@ -17,6 +17,8 @@
     "dev": "webpack serve --config webpack.dev.js",
     "deploymentBranch": "git branch gh-pages && git checkout gh-pages && git merge main --no-edit",
     "addCommit": "git add dist -f && git commit -m 'Deployment commit'",
-    "push": "git subtree push --prefix dist origin gh-pages"
+    "push": "git subtree push --prefix dist origin gh-pages",
+    "eslint": "npx eslint . --ext .js",
+    "prettier": "npx prettier . --check"
   }
 }
