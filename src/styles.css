@@ -10,8 +10,17 @@ body {
     background-color: #ADD8E6;
 }
 
+header {
+    position: absolute;
+    padding: 15px 25px;
+}
+
+.title {
+    font-size: 36px;
+}
+
 .main {
-    padding: 40px;
+    padding: 30px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -27,11 +36,28 @@ body {
     display: flex;
     justify-content: center;
     gap: 10px;
+    margin-bottom: 30px;
+}
+
+#search {
+    width: 50%;
+    height: 30px;
+    border: none;
+    border-radius: 15px;
+    padding-left: 15px;
+    box-shadow: 5px 5px 10px #80a4b0;
+}
+
+#search:focus {
+    outline-width: 0;
 }
 
 .current {
     background-color: white;
-    padding: 20px;
+    padding: 15px 30px 25px 30px;
+    border-radius: 20px;
+    align-self: center;
+    box-shadow: 5px 5px 10px #80a4b0;
 }
 
 .weather-div {
@@ -63,21 +89,33 @@ body {
 
 .forecast {
     background-color: white;
-    padding: 15px 20px;
+    padding: 15px 30px 20px 30px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px #80a4b0;
 }
 
 .forecast-title {
     font-size: 20px;
     font-weight: bold;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 
 .dates {
     display: flex;
-    gap: 20px;
+    gap: 30px;
 }
 
 .day-div {
     border: 1px solid black;
+    border-radius: 10px;
     padding: 10px;
+    width: 70px;
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.day {
+    font-weight: bold;
 }
