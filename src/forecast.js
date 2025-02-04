@@ -1,9 +1,6 @@
 class Forecast {
     date;
-    tempMin;
-    tempMax;
-    conditions;
-    description;
+    temp;
 
     constructor(date, tempMin, tempMax, conditions, description) {
         this.date = date;
